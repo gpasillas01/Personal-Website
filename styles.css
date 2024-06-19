@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #EDE9E3; /* Original background color */
-    color: #544541; /* Original text color */
+    background-color: #EDE9E3;
+    color: #544541;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -21,7 +21,7 @@ body {
 
 /* Navigation Styles */
 .navbar {
-    background-color: #B2A4A6; /* Updated background color */
+    background-color: #E7D7C9;
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -37,7 +37,7 @@ body {
 
 .logo {
     font-size: 1.8rem;
-    color: #E6DFDF; /* Updated text color */
+    color: #544541;
     margin: 0;
 }
 
@@ -53,14 +53,14 @@ body {
 }
 
 .nav-links li a {
-    color: #2E2B2B; /* Updated text color */
+    color: #544541;
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-    color: #696765; /* Updated hover text color */
+    color: #D4B2A7;
 }
 
 /* Gallery Styles */
@@ -72,10 +72,76 @@ body {
 }
 
 .project {
-    background-color: #E6DFDF; /* Updated background color */
+    background-color: #CDC6C3;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
     overflow: hidden;
-    transition: transform 0
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project-details {
+    margin-top: 10px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 1.1rem;
+}
+
+/* Contact Icons */
+.contact-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-icons li {
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+.contact-icons li a {
+    color: #544541;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-icons li a:hover {
+    color: #D4B2A7;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #E7D7C9;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #544541;
 }
