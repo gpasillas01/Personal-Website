@@ -122,9 +122,41 @@ body {
     margin-top: 40px;
 }
 
-.technical-skills,
-.soft-skills {
+.technical-skills, .soft-skills {
     flex: 1;
+}
+
+.skills h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.skills ul li {
+    font-size: 1.1rem;
+}
+
+/* Education Section */
+.education {
+    margin-top: 40px;
+}
+
+.education h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.education ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.education ul li {
+    font-size: 1.1rem;
 }
 
 /* Contact Icons */
@@ -166,7 +198,7 @@ footer p {
     color: #544541;
 }
 
-/* About Section */
+/* About Me Section */
 .about-content {
     display: flex;
     justify-content: center;
