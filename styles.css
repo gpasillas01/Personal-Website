@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #F6F5EC;
+    background-color: #EDE9E3;
     color: #544541;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
 
 /* Navigation Styles */
 .navbar {
-    background-color: #EFE7DA;
+    background-color: #E7D7C9;
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-links li a:hover {
-    color: #8A6851;
+    color: #D4B2A7;
 }
 
 /* Gallery Styles */
@@ -72,7 +72,7 @@ body {
 }
 
 .project {
-    background-color: #C1B6A4;
+    background-color: #CDC6C3;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -128,12 +128,12 @@ body {
 }
 
 .contact-icons li a:hover {
-    color: #8A6851;
+    color: #D4B2A7;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #EFE7DA;
+    background-color: #E7D7C9;
     text-align: center;
     padding: 20px 0;
     position: relative;
