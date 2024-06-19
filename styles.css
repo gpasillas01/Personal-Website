@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    padding-top: 80px; /* Ensure content below nav bar is visible */
 }
 
 .container {
@@ -34,7 +35,8 @@ body {
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    position: relative; /* Ensure it's relative for stacking context */
+    position: fixed; /* Fix the navigation bar at the top */
+    top: 0; /* Ensure it sticks to the top */
 }
 
 .navbar .container {
@@ -133,17 +135,6 @@ body {
 
 .skills ul {
     list-style-type: disc;
-    padding-left: 20px;
-}
+    padding-left:
 
-.skills ul li {
-    font-size: 1.1rem;
-}
-
-/* Education Section */
-.education {
-    margin-top: 40px;
-}
-
-.education h3 {
-    font-size: 
+    
