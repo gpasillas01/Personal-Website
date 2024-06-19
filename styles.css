@@ -63,34 +63,44 @@ body {
     color: #8A6851;
 }
 
-/* Carousel Styles */
-.carousel {
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
+/* Gallery Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
 }
 
 .project {
-    flex: 0 0 auto;
-    width: 300px;
-    padding: 20px;
-    margin: 20px;
     background-color: #C1B6A4;
+    padding: 20px;
     border-radius: 8px;
     text-align: center;
-    scroll-snap-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px);
 }
 
 .project img {
     max-width: 100%;
     border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project-details {
+    margin-top: 10px;
 }
 
 .project h3 {
-    margin-top: 10px;
     font-size: 1.5rem;
+    margin: 10px 0;
 }
 
 .project p {
