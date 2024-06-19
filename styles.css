@@ -31,10 +31,10 @@ body {
 .navbar {
     background-color: #E7D7C9;
     padding: 20px 0;
-    position: fixed;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative; /* Ensure it's relative for stacking context */
 }
 
 .navbar .container {
@@ -146,77 +146,4 @@ body {
 }
 
 .education h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.education ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-.education ul li {
-    font-size: 1.1rem;
-}
-
-/* Contact Icons */
-.contact-icons {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.contact-icons li {
-    margin: 0 10px;
-    font-size: 2rem;
-}
-
-.contact-icons li a {
-    color: #544541;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.contact-icons li a:hover {
-    color: #D4B2A7;
-}
-
-/* Footer Styles */
-footer {
-    background-color: #E7D7C9;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    margin-top: 50px;
-}
-
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #544541;
-}
-
-/* About Me Section */
-.about-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.about-text {
-    max-width: 600px;
-    margin-left: 40px;
-    text-align: left;
-}
-
-.about-text h3 {
-    font-size: 1.5rem;
-    margin-top: 20px;
-}
-
-.about-text p {
-    font-size: 1.1rem;
-}
+    font-size: 
