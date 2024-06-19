@@ -1,73 +1,85 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Griselda Pasillas - Personal Website</title>
-    <link rel="stylesheet" href="styles.css"> <!--  CSS file linked -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Griselda Pasillas</h1>
-            <p class="subtitle">Recent Graduate in Cyber Forensics and Security</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
- <section id="about" class="section">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Your Name</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
         <div class="container">
             <h2>About Me</h2>
-            <p>Recent graduate with a Bachelor's in Information Technology and Management and a Master's in Cyber Forensics and Management. Experienced Junior System Administrator with hands-on experience in system administration, security management, and IT operations.</p>
+            <p>Your introduction goes here. Briefly describe your background, skills, and career aspirations.</p>
         </div>
     </section>
 
-    <section id="resume" class="section">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>Embed  resume or downloadable link here.</p>
-            <p>For example: <a href="path-to-your-resume.pdf" target="_blank">Download Resume</a></p>
-        </div>
-    </section>
-
+    <!-- Portfolio Section -->
     <section id="portfolio" class="section">
         <div class="container">
             <h2>Portfolio</h2>
-            <div class="project">
-                <h3>Project Title</h3>
-                <p>Description of the project.</p>
-                <p><a href="https://github.com/yourusername/project-repo" target="_blank">GitHub Repository</a></p>
+            <div class="carousel">
+                <!-- Project 1 -->
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Description of Project 1</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Description of Project 2</p>
+                </div>
+                <!-- Add more projects as needed -->
             </div>
-           
         </div>
     </section>
 
-   <section id="contact" class="section">
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Embed your resume or provide a downloadable link:</p>
+            <p><a href="path-to-your-resume.pdf" target="_blank">Download Resume</a></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
         <div class="container">
             <h2>Contact Me</h2>
-            <ul class="contact-list">
-                <li><strong>Email:</strong> <a href="mailto:gpasillas01@gmail.com">gpasillas01@gmail.com</a></li>
-                <li><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/griselda-pslls" target="_blank">LinkedIn Profile</a></li>
+            <ul class="contact-icons">
+                <li><a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <!-- Add more icons as needed -->
             </ul>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>Griselda Pasillas 2024.</p>
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script> <!-- LINKED JAVASC FILE -->
-
+    <script src="script.js"></script>
 </body>
 </html>
