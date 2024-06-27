@@ -196,21 +196,28 @@ footer p {
 /* About Me Section */
 .about-content {
     display: flex;
-    justify-content: flex-start; /* Align items at the start (left) */
-    align-items: flex-start; /* Align items at the top */
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center; /* Center items horizontally */
+}
+
+.profile-photo-container {
+    text-align: center; /* Center the profile photo on larger screens */
+    flex: 0 0 auto; /* Fix width for profile photo container */
+    width: 200px; /* Width of profile photo container */
+    margin-right: 20px; /* Add margin between photo and text on larger screens */
 }
 
 .profile-photo {
-    max-width: 200px; /* Adjust width of profile photo as needed */
+    max-width: 100%; /* Ensure photo resizes responsively */
     border-radius: 8px;
-    margin-right: 20px; /* Add margin to separate from text */
-    flex-shrink: 0; /* Prevent photo from shrinking */
+    display: block; /* Prevent inline-block spacing issues */
+    margin: 0 auto; /* Center the photo inside its container */
 }
 
 .about-text {
-    flex: 1; /* Take remaining space */
-    max-width: calc(100% - 220px); /* Adjust width to accommodate photo and margin */
+    flex: 1 1 auto; /* Take remaining space */
+    max-width: calc(100% - 220px); /* Adjust width for text content */
 }
 
 .about-text h3 {
@@ -220,4 +227,24 @@ footer p {
 .about-text p {
     text-align: left; /* Align paragraphs to the left */
     margin-bottom: 1em; /* Add bottom margin for paragraph spacing */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center items vertically on mobile */
+    }
+
+    .profile-photo-container {
+        margin-bottom: 20px; /* Add space between photo and text on mobile */
+    }
+
+    .profile-photo {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .about-text {
+        max-width: 100%; /* Full width for text on mobile */
+    }
 }
