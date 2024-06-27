@@ -211,7 +211,7 @@ footer p {
     max-width: 100%; /* Ensure photo resizes responsively */
     border-radius: 8px;
     display: block; /* Prevent inline-block spacing issues */
-    margin: 0 auto; /* Center the photo inside its container */
+    margin: 0; /* Adjust margin for vertical alignment */
 }
 
 .about-text {
