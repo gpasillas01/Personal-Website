@@ -196,16 +196,15 @@ footer p {
 /* About Me Section */
 .about-content {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     align-items: flex-start; /* Align items at the top */
-    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .profile-photo-container {
-    text-align: center; /* Center the profile photo on larger screens */
     flex: 0 0 auto; /* Fix width for profile photo container */
-    width: 200px; /* Width of profile photo container */
-    margin-right: 20px; /* Add margin between photo and text on larger screens */
+    width: 30%; /* Width of profile photo container for desktop */
+    max-width: 300px; /* Limit maximum width of profile photo container */
+    margin-right: 20px; /* Add margin between photo and text */
 }
 
 .profile-photo {
@@ -217,7 +216,7 @@ footer p {
 
 .about-text {
     flex: 1 1 auto; /* Take remaining space */
-    max-width: calc(100% - 220px); /* Adjust width for text content */
+    max-width: calc(70% - 20px); /* Adjust width for text content */
 }
 
 .about-text h3 {
@@ -237,11 +236,8 @@ footer p {
     }
 
     .profile-photo-container {
+        width: 100%; /* Full width for profile photo container on mobile */
         margin-bottom: 20px; /* Add space between photo and text on mobile */
-    }
-
-    .profile-photo {
-        width: 100%; /* Full width on mobile */
     }
 
     .about-text {
