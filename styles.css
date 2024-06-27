@@ -118,29 +118,22 @@ body {
 }
 
 /* Skills Section */
-.skills {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-.technical-skills, .soft-skills {
-    flex: 1;
-}
-
-.skills h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
 .skills ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align bullet points straight */
 }
 
 .skills ul li {
     font-size: 1.1rem;
+    margin-bottom: 8px; /* Adjust spacing between list items */
 }
+
+.technical-skills ul,
+.soft-skills ul {
+    padding-left: 0; /* Remove default padding-left */
+}
+
 
 /* Education Section */
 .education {
@@ -203,22 +196,20 @@ footer p {
 /* About Me Section */
 .about-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
 .about-text {
-    max-width: 600px;
-    margin-left: 40px;
-    text-align: left;
+    max-width: calc(50% - 20px); /* Adjust width to allow space for the profile photo */
+    margin-right: 20px;
 }
 
-.about-text h3 {
-    font-size: 1.5rem;
-    margin-top: 20px;
+.profile-photo {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px; /* Add spacing between photo and text */
+    flex-shrink: 0; /* Prevent photo from shrinking */
 }
 
-.about-text p {
-    font-size: 1.1rem;
-}
