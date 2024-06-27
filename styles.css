@@ -201,23 +201,30 @@ footer p {
     flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
 
+.profile-photo {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px; /* Add spacing between photo and text */
+    margin-right: 20px; /* Add margin to separate from text */
+    flex-shrink: 0; /* Prevent photo from shrinking */
+}
+
 .about-text {
-    max-width: calc(50% - 20px); /* Adjust width to allow space for the profile photo */
-    margin-right: 20px;
-    margin-bottom: 20px; /* Add margin at the bottom to separate from the photo */
+    flex: 1; /* Take remaining space */
+    max-width: calc(50% - 40px); /* Adjust width to allow space for the profile photo */
 }
 
-.profile-photo {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 20px; /* Add spacing between photo and text */
-    flex-shrink: 0; /* Prevent photo from shrinking */
+.career-aspirations {
+    flex: 1; /* Take remaining space */
+    max-width: calc(50% - 40px); /* Adjust width to allow space for the profile photo */
 }
 
-.profile-photo {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-top: 20px; /* Add spacing between photo and text */
-    flex-shrink: 0; /* Prevent photo from shrinking */
+.about-text h3,
+.career-aspirations h3 {
+    margin-top: 0; /* Remove top margin for consistency */
 }
 
+.about-text p,
+.career-aspirations p {
+    margin-bottom: 1em; /* Add bottom margin for paragraph spacing */
+}
