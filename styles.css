@@ -88,6 +88,7 @@ body {
     text-align: center;
     overflow: hidden;
     transition: transform 0.3s ease;
+    cursor: pointer;  /* added july 16 12:00 */
 }
 
 .project:hover {
