@@ -105,14 +105,8 @@ body {
     transform: scale(1.1);
 }
 
-/* Project details specific styles */
 .project-details {
-    margin-top: 20px;
-    text-align: left; /* Ensures text starts from the left */
-}
-
-.project-details img {
-    max-width: 100%; /* Ensure images resize responsively */
+    margin-top: 10px;
 }
 
 .project h3 {
@@ -123,6 +117,7 @@ body {
 .project p {
     font-size: 1.1rem;
 }
+
 
 /* Skills Section */
 .skills ul {
