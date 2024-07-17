@@ -40,6 +40,22 @@ This repository documents Best Practices for Business Continuity Planning (BCP) 
 - Reflection on the importance of preparedness and adaptation.
 - Impact of the project on future business continuity planning.
 
+## Skills and Expertise
+
+### Technical Skills
+- Research and analysis of business continuity strategies.
+- Documentation and report writing.
+- Presentation skills for communicating findings and recommendations.
+
+### Soft Skills
+- Critical thinking and problem-solving.
+- Communication and collaboration.
+- Time management and project coordination.
+
+### Tools and Technologies
+- Proficient in Microsoft Office Suite (Word, Excel, PowerPoint) for documentation and presentations.
+- Familiarity with research databases and online resources for data collection.
+
 ## Viewing Documents
 - View/download the presentation slides [here](https://github.com/gpasillas01/CyberSec-Projects-/raw/main/Best%20Practices%20for%20Business%20Continuity%20%20Planning/Best%20Practices%20for%20Business%20Continuity%20Planning%20and%20Disaster%20Recovery).
 - View presentation with audio recording [here](https://drive.google.com/file/d/1ZesqVJOCugSZA3m0QVjMPhD2N_hNNcBr/view?usp=share_link).
