@@ -107,6 +107,7 @@ body {
 
 .project-details {
     margin-top: 10px;
+    text-align: left; /* Align text to the left for project details on project page */
 }
 
 .project h3 {
