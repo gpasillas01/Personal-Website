@@ -16,30 +16,30 @@ body {
 }
 
 .section {
-    padding-top: 120px; /* Adjusted padding to ensure headings are visible */
+    padding-top: 90px; /* Adjusted padding to ensure headings are visible */
     padding-bottom: 80px; /* Bottom padding for consistency */
     text-align: center;
 }
 
 /* add padding for each section */
 #about {
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 #portfolio {
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 #skills {
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 #education {
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 #contact {
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 
