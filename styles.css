@@ -16,7 +16,7 @@ body {
 }
 
 .section {
-    padding-top: 180px; /* Adjusted padding to ensure headings are visible */
+    padding-top: 120px; /* Adjusted padding to ensure headings are visible */
     padding-bottom: 80px; /* Bottom padding for consistency */
     text-align: center;
 }
