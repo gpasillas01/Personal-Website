@@ -16,9 +16,32 @@ body {
 }
 
 .section {
-    padding: 80px 0;
+    padding-top: 180px; /* Adjusted padding to ensure headings are visible */
+    padding-bottom: 80px; /* Bottom padding for consistency */
     text-align: center;
 }
+
+/* add padding for each section */
+#about {
+    padding-top: 180px;
+}
+
+#portfolio {
+    padding-top: 180px;
+}
+
+#skills {
+    padding-top: 180px;
+}
+
+#education {
+    padding-top: 180px;
+}
+
+#contact {
+    padding-top: 180px;
+}
+
 
 .bubble-border {
     border-radius: 20px;
