@@ -25,10 +25,6 @@ The organization operates in three production data centers, ensuring high availa
 - **Business Impact Analysis (BIA):** Assessment of critical business functions and resources to determine maximum acceptable outage (MAO), recovery point objective (RPO), and recovery time objective (RTO).
 - **Business Continuity Plan (BCP):** Plan for maintaining business operations during disruptions, with specific consideration given to scenarios like winter storms affecting office accessibility.
 
-## Technologies and Tools Used
-- Microsoft Word for document drafting and compilation.
-- Online resources including NIST guidelines and industry best practices.
-
 ## Compliance Laws
 The risk management plan adheres to the following compliance laws:
 -	HIPAA: Ensures protection of patient information.
@@ -67,13 +63,12 @@ The risk management plan adheres to the following compliance laws:
 - **Business Continuity Planning (BCP)**: Ensuring essential functions can continue during and after a disaster.
 - **User Training Programs**: Educating employees on security policies, procedures, and best practices.
 - **Regular Audits and Reviews**: Periodic assessments of security controls and procedures to maintain effectiveness.
-- **Regulatory Compliance Checks**: Ensuring systems and practices align with applicable laws and regulations.
+- **Regulatory Compliance Checks**: Ensuring systems and practices align with applicable laws and regulations such as NIST guidelines and industry best practices.
 
-
-## Listed Skills, Tools, and Techniques
 - **Skills**: Risk management, project management, technical expertise, compliance knowledge, communication, problem solving, training and awareness, documentation.
 - **Tools**: Audit trails, firewalls, encryption tools, video surveillance systems, access control systems, vulnerability assessment tools, compliance management software, backup and recovery software.
 - **Techniques**: Risk assessment, impact analysis, risk mitigation strategies, incident response planning, business continuity planning (BCP), user training programs, regular audits and reviews, regulatory compliance checks.
+  
 ## Future Considerations
 - Continuous refinement and updating of the risk management plan based on evolving threats and regulatory changes.
 - Exploration of automated risk assessment tools and technologies to improve efficiency and accuracy in risk management processes.
