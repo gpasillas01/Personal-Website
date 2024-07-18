@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2: Digital Spot Information Security Program Review</title>
+    <title>Project 4: Recon a Site - Reconnaissance Report</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -25,20 +25,76 @@
         </div>
     </nav>
 
-    <!-- Project 2 Details Section -->
-    <section id="project1" class="section bubble-border">
+    <!-- Project 4 Details Section -->
+    <section id="project4" class="section bubble-border">
         <div class="container">
-            <h2>Project 3: ACME Virtual Box Vulnerability Assessment</h2>
+            <h2>Project 4: Recon a Site - Reconnaissance Report</h2>
             <div class="project-details">
-                <img src="project1.jpg" alt="Project 1">
-                <p>Project Type: Presentation</p>
-                <p>Overview: A detailed presentation discussing the impact of COVID-19 as a disaster, global statistics, and lessons learned in terms of business continuity and disaster recovery.</p>
-                <h4>Key Sections (Based on README):</h4>
-                <h5>Introduction</h5>
+                <p>This repository contains a reconnaissance report conducted on the Certified Hacker website (<a href="http://certifiedhacker.com/">http://certifiedhacker.com/</a>). The report aims to identify potential vulnerabilities using both passive and active reconnaissance techniques. The findings highlight critical information that could be exploited by malicious actors, emphasizing the importance of proactive security measures.</p>
+
+                <h3>Table of Contents</h3>
                 <ul>
-                    <li>Definition and importance of Business Continuity Planning (BCP) and Disaster Recovery (DR).</li>
-                    <li>Overview of the project's objectives and scope.</li>
+                    <li>Executive Summary</li>
+                    <li>Reconnaissance Findings</li>
+                    <ul>
+                        <li>Passive Reconnaissance</li>
+                        <li>Active Reconnaissance</li>
+                    </ul>
+                    <li>Summary</li>
                 </ul>
+
+                <hr>
+
+                <h3>Executive Summary</h3>
+                <p>The reconnaissance report details findings from the assessment of the Certified Hacker website. It identifies vulnerabilities that could potentially compromise its security, urging for immediate remediation measures.</p>
+
+                <h3>Reconnaissance Findings</h3>
+
+                <h4>Passive Reconnaissance</h4>
+                <ul>
+                    <li><strong>BuildWith:</strong> Detailed analysis of technologies and providers used by the website. Potential vulnerabilities include exposed server details and software versions.</li>
+                    <li><strong>Wappalyzer:</strong> Cross-referencing BuildWith findings to reveal OS versions and security protocols. Identifies potential weaknesses that could be exploited.</li>
+                    <li><strong>Censys:</strong> Provides real-time server location, operating system, and open TCP protocols. Exposes sensitive information that could serve as entry points for attacks.</li>
+                </ul>
+
+                <h4>Active Reconnaissance</h4>
+                <ul>
+                    <li><strong>NSLOOKUP:</strong> Reveals organizational communication systems and related records. Potential gateway for unauthorized access if exploited.</li>
+                    <li><strong>DigLookups / DNSBrutalattack / DNSEnumeration:</strong> Discovers IPV4 addresses, subdomains, and mail exchange servers. Attempts brute-force attacks to gather information, highlighting potential vulnerabilities.</li>
+                </ul>
+
+                <h3>Summary</h3>
+                <p>The reconnaissance findings indicate significant vulnerabilities within the Certified Hacker website's infrastructure and security protocols. While certain measures like protection against brute-force attacks are in place, critical information such as IP addresses and server configurations remain accessible. Addressing these vulnerabilities promptly is crucial to mitigate potential cyber-attacks and protect sensitive data.</p>
+
+                <h3>Skills and Technology</h3>
+
+                <h4>Tools Used</h4>
+                <ul>
+                    <li>BuildWith: Analyzing website technologies and providers.</li>
+                    <li>Wappalyzer: Identifying OS versions and security protocols.</li>
+                    <li>Censys: Discovering server location, operating system, and open TCP protocols.</li>
+                    <li>NSLOOKUP / DigLookups / DNSBrutalattack / DNSEnumeration: Conducting DNS queries and reconnaissance.</li>
+                </ul>
+
+                <h4>Techniques Used</h4>
+                <ul>
+                    <li>Passive Reconnaissance: Gathering information without directly interacting with the target.</li>
+                    <li>Active Reconnaissance: Interacting with the target to gather specific information.</li>
+                    <li>Cross-referencing: Verifying findings across multiple tools for accuracy.</li>
+                </ul>
+
+                <h4>Skills Demonstrated</h4>
+                <ul>
+                    <li>Cybersecurity Analysis: Evaluating security vulnerabilities and risks based on reconnaissance findings.</li>
+                    <li>Vulnerability Assessment: Identifying weaknesses in the website's infrastructure and security measures.</li>
+                    <li>Penetration Testing: Performing active reconnaissance to test the website's defenses and potential entry points.</li>
+                    <li>DNS Querying: Using DNS tools to gather information about the website's network infrastructure.</li>
+                    <li>OS and Protocol Identification: Analyzing operating systems and network protocols to understand potential vulnerabilities.</li>
+                    <li>Report Writing and Documentation: Documenting findings, recommendations, and insights in a comprehensive reconnaissance report.</li>
+                </ul>
+
+                <h3>Accessing Project Documents</h3>
+                <p><a href="Recon_a_Site_Reconnaissance_Report.pdf">View Reconnaissance Report: Recon a Site - Reconnaissance Report PDF</a></p>
             </div>
         </div>
     </section>
