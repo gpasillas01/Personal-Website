@@ -44,6 +44,27 @@ Based off the Security Program Lifecycle, our team is tasked with:
   - **Name**: Arturo Arreola
   - **Role**: Described ChatGPT in Marketing, highlighted benefits and necessity, developed Social, Information, and Authorization views, identified security design patterns, and presented findings.
 
+#### Skills and Expertise
+Skills corresponding to my role. 
+  - **Technical Skills:**
+    - AI technology integration in enterprise infrastructure.
+    - Security views development using STS-ml modeling language.
+    - Security design pattern recommendations (authentication, session management).
+    - Security program lifecycle management.
+    - Coordination of cross-functional teams.
+    - Familiarity with OWASP standards for web application security, applied in Authentication Gateway and Session Management.
+      
+  - **Soft Skills:**
+    - Leadership in AI technology integration project.
+    - Communication with stakeholders regarding security implications.
+    - Problem-solving in secure software development challenges.
+    - Time management and project coordination.
+
+  - **Tools and Technologies:**
+    - STS-ml Modeling Language for security views development.
+    - Microsoft Office Suite for documentation and presentation.
+    - Trello Project Management Tool for task distribution.
+
 ## Accessing Project Documents
 The presentation is available as a PDF file in this repository along with supporting reports and models. 
 - **Presentation Slides (Audio within Slides)**: [Digital Spot - Information Security Program Review PDF](https://github.com/gpasillas01/CyberSec-Projects-/raw/main/Digital%20Spot-%20Information%20Security%20Program%20%20Review/Digital%20Spot%20Information%20Security%20Program%20Review%20PDF)
