@@ -39,6 +39,41 @@ The risk management plan adheres to the following compliance laws:
 - Applied theoretical knowledge to real-world scenarios, enhancing skills in risk assessment, mitigation, and business continuity planning.
 - Collaborated effectively with team members and stakeholders to develop a comprehensive risk management strategy.
 
+## Skills
+- **Risk Management**: Identifying, assessing, and prioritizing risks to minimize their impact on the organization.
+- **Project Management**: Planning, executing, and monitoring tasks to ensure the project stays on track.
+- **Technical Expertise**: Understanding of IT infrastructure, including hardware, software, and network configurations.
+- **Compliance Knowledge**: Familiarity with regulatory requirements such as HIPAA and GLBA to ensure legal adherence.
+- **Communication**: Clear and effective communication with team members, stakeholders, and end-users.
+- **Problem Solving**: Ability to analyze complex issues and develop effective solutions.
+- **Training and Awareness**: Educating staff on cybersecurity best practices and company policies.
+- **Documentation**: Writing clear and concise reports, assessments, and documentation related to risk management.
+
+## Tools
+- **Audit Trails**: Monitoring and logging tools to track file access and modifications.
+- **Firewalls**: Network security tools to monitor and control incoming and outgoing traffic.
+- **Encryption Tools**: Software for encrypting sensitive data during storage and transmission.
+- **Video Surveillance Systems**: Cameras and monitoring software to enhance physical security.
+- **Access Control Systems**: Badge systems and authentication tools for controlling access to facilities and networks.
+- **Vulnerability Assessment Tools**: Software for scanning and identifying weaknesses in IT systems.
+- **Compliance Management Software**: Tools to track regulatory compliance requirements and ensure adherence.
+- **Backup and Recovery Software**: Solutions for data backup, disaster recovery, and business continuity planning.
+
+## Techniques
+- **Risk Assessment**: Systematic evaluation of potential risks and vulnerabilities.
+- **Impact Analysis**: Assessing the potential impact of risks on business operations and critical functions.
+- **Risk Mitigation Strategies**: Developing and implementing controls to reduce identified risks.
+- **Incident Response Planning**: Preparing procedures and protocols to respond to security incidents promptly.
+- **Business Continuity Planning (BCP)**: Ensuring essential functions can continue during and after a disaster.
+- **User Training Programs**: Educating employees on security policies, procedures, and best practices.
+- **Regular Audits and Reviews**: Periodic assessments of security controls and procedures to maintain effectiveness.
+- **Regulatory Compliance Checks**: Ensuring systems and practices align with applicable laws and regulations.
+
+
+## Listed Skills, Tools, and Techniques
+- **Skills**: Risk management, project management, technical expertise, compliance knowledge, communication, problem solving, training and awareness, documentation.
+- **Tools**: Audit trails, firewalls, encryption tools, video surveillance systems, access control systems, vulnerability assessment tools, compliance management software, backup and recovery software.
+- **Techniques**: Risk assessment, impact analysis, risk mitigation strategies, incident response planning, business continuity planning (BCP), user training programs, regular audits and reviews, regulatory compliance checks.
 ## Future Considerations
 - Continuous refinement and updating of the risk management plan based on evolving threats and regulatory changes.
 - Exploration of automated risk assessment tools and technologies to improve efficiency and accuracy in risk management processes.
