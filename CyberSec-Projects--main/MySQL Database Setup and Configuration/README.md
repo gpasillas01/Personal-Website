@@ -36,6 +36,26 @@
  - **Access Restriction**: Restrict access to the "world" database to specific users.
  - **Documentation**: Document the security measures applied and explain their significance.
 
+## Skills Utilized
+- **MySQL Database Management and Administration:** Proficiently managed MySQL databases, including installation, user management, SQL querying, and administrative tasks such as backups and restores.
+- **SQL Querying and Optimization:** Effectively wrote SQL queries to retrieve data, populate tables, and verify database status, ensuring efficient database operations.
+- **Database Backup and Restore:** Executed backup operations using `mysqldump` and restored databases from backups as part of disaster recovery planning.
+- **Database Security and Access Control:** Implemented password policies and restricted database access to specific users, enhancing data security and confidentiality.
+- **Documentation and Reporting:** Produced comprehensive documentation with screenshots, detailing installation steps, SQL queries used, backup procedures, and security configurations for clarity and replicability.
+
+## Technologies Used
+- **MySQL Server:** Installed and configured MySQL Server for database creation, management, and querying.
+- **MySQL Workbench:** Utilized for SQL development, database administration, and performance monitoring.
+  
+## Techniques Used
+- **Database Installation and Setup:** Followed documented procedures to install MySQL Server, configure user accounts, and establish database connectivity.
+- **Database Creation and Population:** Created the "world" database and populated it with sample data using SQL commands (`CREATE DATABASE`, `INSERT INTO`).
+- **SQL Query Writing and Execution:** Wrote SQL queries to retrieve specific data from the database (`SELECT` statements), optimized queries, and verified data integrity (`SHOW` commands).
+- **Backup and Restore Operations:** Performed database backups (`mysqldump`) and restored databases from backups to simulate and recover from data loss scenarios.
+- **Database Security Implementation:** Implemented password expiration policies and restricted database access (`GRANT` statements) to enforce security measures.
+- **Documentation and Reporting:** Prepared detailed documentation with step-by-step instructions, screenshots, and explanations of each task performed, ensuring comprehensive project documentation.
+
+
 ## Documents
 - **View Detailed Task Completion**: Refer to the [MySQL Setup and Configuration Completion PDF](https://drive.google.com/file/d/1_g1sxisCmbt3ut3-WR1j4YnRrf1TNkq5/view?usp=sharing) for detailed completion of each task, including screenshots of the results.
 - **Download World Database Setup Guide**: Download the [World Database "world-setup-en.pdf"](https://downloads.mysql.com/docs/world-setup-en.pdf) for database setup instructions.
