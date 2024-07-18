@@ -54,17 +54,18 @@ This project involves conducting a collaborative Information Technology audit fo
   - Reporting to management and performing a follow-up review.   
 
 ## Skills
-**Research Methodology:** Employed research methodologies to gather and analyze information about Walmart's IT infrastructure, policies, and procedures related to General Computer Controls.
-**Analytical Skills:** Applied analytical skills to evaluate findings from research and assessments, identifying gaps and areas for improvement in IT general controls.
-**Documentation:** Demonstrated strong documentation skills in compiling audit plans, findings, and recommendations, ensuring clarity and completeness in project deliverables.
-**Communication:** Effectively communicated audit findings, risk assessments, and recommendations to IT management and stakeholders.
-**Team Collaboration:** Collaborated effectively with audit team members to execute audit plans, allocate resources, and ensure comprehensive coverage of audit areas.
+- **Research Methodology:** Employed research methodologies to gather and analyze information about Walmart's IT infrastructure, policies, and procedures -related to General Computer Controls.
+- **Analytical Skills:** Applied analytical skills to evaluate findings from research and assessments, identifying gaps and areas for improvement in IT general controls.
+- **Documentation:** Demonstrated strong documentation skills in compiling audit plans, findings, and recommendations, ensuring clarity and completeness in project deliverables.
+- **Communication:** Effectively communicated audit findings, risk assessments, and recommendations to IT management and stakeholders.
+- **Team Collaboration:** Collaborated effectively with audit team members to execute audit plans, allocate resources, and ensure comprehensive coverage of audit areas.
+
 ## Techniques
-**Audit Life Cycle:** Followed the Audit Life Cycle diagram to systematically plan, execute, and report findings from the IT audit.
-**Standards and Frameworks:** Referenced relevant standards and frameworks (e.g., COBIT, COSO, NIST) to benchmark Walmart's IT controls against industry best practices.
-**Risk Assessment:** Conducted risk assessments to prioritize audit focus areas and allocate audit resources effectively.
-**Root Cause Analysis:** Utilized root cause analysis techniques to identify underlying issues contributing to identified vulnerabilities or gaps in IT controls.
-**Impact Analysis:** Assessed the business impact of identified risks and vulnerabilities, informing recommendations for risk mitigation.
+- **Audit Life Cycle:** Followed the Audit Life Cycle diagram to systematically plan, execute, and report findings from the IT audit.
+- **Standards and Frameworks:** Referenced relevant standards and frameworks (e.g., COBIT, COSO, NIST) to benchmark Walmart's IT controls against industry best practices.
+- **Risk Assessment:** Conducted risk assessments to prioritize audit focus areas and allocate audit resources effectively.
+- **Root Cause Analysis:** Utilized root cause analysis techniques to identify underlying issues contributing to identified vulnerabilities or gaps in IT controls.
+- **Impact Analysis:** Assessed the business impact of identified risks and vulnerabilities, informing recommendations for risk mitigation.
 
 ## Tools
 **Google Drive for Documentation:** Real-time collaboration among team members for creating and editing presentation slides for the executive review. This streamlined document sharing, version control, and ensured accessibility from any location with internet access, enhancing efficiency and coordination throughout the project.
