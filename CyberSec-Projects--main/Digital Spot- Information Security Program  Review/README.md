@@ -44,7 +44,7 @@ Based off the Security Program Lifecycle, our team is tasked with:
   - **Name**: Arturo Arreola
   - **Role**: Described ChatGPT in Marketing, highlighted benefits and necessity, developed Social, Information, and Authorization views, identified security design patterns, and presented findings.
 
-#### Skills and Expertise
+## Skills and Expertise
 Skills corresponding to my role. 
   - **Technical Skills:**
     - AI technology integration in enterprise infrastructure.
