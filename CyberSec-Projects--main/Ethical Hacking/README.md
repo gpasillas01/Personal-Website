@@ -74,6 +74,7 @@ The technical summary summarizes the approach taken during the assessment, empha
 - **Scanning and Enumeration:** Conducted scans to identify open ports and services running on the ACME Virtual Box.
 - **Exploitation:** Attempted to exploit vulnerabilities using Metasploit to simulate real-world attacks.
 - **Remediation:** Provided recommendations for mitigating vulnerabilities identified during the assessment.
+- **Risk Assessment and Management:** Ability to assess and prioritize security risks based on potential impact and likelihood.
 
 ### Listed Skills and Technologies
 
