@@ -50,8 +50,32 @@ The technical summary summarizes the approach taken during the assessment, empha
 
 
 ---
-
 ### Skills and Technologies
+
+#### Skills
+
+- **Ethical Hacking:** Proficient in ethical hacking methodologies to identify and exploit vulnerabilities.
+- **Penetration Testing:** Experience in conducting penetration tests to assess system security.
+- **Vulnerability Assessment:** Ability to perform comprehensive vulnerability assessments to identify security weaknesses.
+- **Network Security:** Knowledge of network security principles and best practices.
+- **Linux Administration:** Familiarity with Linux operating systems and administration tasks.
+
+#### Tools
+
+- **Nmap:** Used for network reconnaissance and scanning.
+- **Metasploit:** Employed for exploitation of identified vulnerabilities.
+- **SSH:** Used for secure remote access to Linux servers.
+- **Apache:** Web server software used for testing web-based vulnerabilities.
+- **Ubuntu:** Linux distribution hosting the ACME Virtual Box environment.
+
+#### Techniques
+
+- **Reconnaissance:** Utilized Nmap for gathering information about the network and system configurations.
+- **Scanning and Enumeration:** Conducted scans to identify open ports and services running on the ACME Virtual Box.
+- **Exploitation:** Attempted to exploit vulnerabilities using Metasploit to simulate real-world attacks.
+- **Remediation:** Provided recommendations for mitigating vulnerabilities identified during the assessment.
+
+### Listed Skills and Technologies
 
 - **Skills:** Ethical Hacking, Penetration Testing, Vulnerability Assessment, Network Security, Linux Administration
 - **Tools:** Nmap, Metasploit, SSH, Apache, Ubuntu
