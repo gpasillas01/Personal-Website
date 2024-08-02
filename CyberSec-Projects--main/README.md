@@ -1,2 +1,2 @@
 # Cyber Security-Projects-
-Repository showcasing my cybersecurity projects and assignments. Includes several folders with detailed documentation on ..... Demonstrates proficiency in cybersecurity tools and methods.
+This repository showcases my cybersecurity projects. It includes several folders with detailed documentation and demonstrates proficiency in cybersecurity tools and methods, emphasizing practical applications and comprehensive analyses.
